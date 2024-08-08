@@ -1,0 +1,79 @@
+#login-link{
+    font-weight: bold;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  margin: 150px 0 355px 0;
+}
+
+#login-container h2 {
+  font-family: "Syne";
+}
+
+#login-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 37px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+
+.mail-password input {
+  width: 379px;
+  height: 51px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+  border: none;
+  font-size: 20px;
+}
+
+.mail-password label{
+    font-family: 'Work Sans';
+    font-weight: bold;
+    color: #3D3D3D;
+    }
+
+.mail-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: center;
+}
+
+.forgot-password a{
+font-family: 'Work Sans';
+font-weight: bold;
+text-decoration-line: underline;
+color: #3D3D3D;
+}
+
+.submit-forgot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.submit-forgot input {
+  margin: 0;
+  width: 179px;
+  height: 36px;
+  border: none;
+}
